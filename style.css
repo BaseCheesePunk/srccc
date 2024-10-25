@@ -42,8 +42,8 @@ nav button {
 }
 
 .gallery img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -105,9 +105,9 @@ nav button {
 }
 
 .logo {
-  width: 100px;  /* Atur lebar sesuai kebutuhan */
+  width: 200px;  /* Atur lebar sesuai kebutuhan */
   height: auto;  /* Agar proporsi tetap terjaga */
-  max-width: 150px; /* Batas maksimum ukuran */
+  max-width: 250px; /* Batas maksimum ukuran */
 }
 
 .social-media {
