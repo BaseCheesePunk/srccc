@@ -117,10 +117,10 @@ nav button {
 }
 
 .social-media a {
-  margin: 0 2px; /* Space between the icons */
+  margin: 0 1px; /* Space between the icons */
 }
 
 .social-media img {
-  width: 30px; /* Set icon width */
+  width: 40px; /* Set icon width */
   height: auto; /* Maintain aspect ratio */
 }
