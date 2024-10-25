@@ -1,5 +1,5 @@
 // Inisialisasi Thirdweb SDK dengan RPC URL atau ID project dari Thirdweb
-const sdk = new thirdweb.ThirdwebSDK("https://8453.rpc.thirdweb.com/3f15e5aedbb55f0047ff8a7ad6a49ba3");
+const sdk = new thirdweb.ThirdwebSDK("https://8453.rpc.thirdweb.com/${THIRDWEB_API_KEY}");
 
 // Konfigurasi alamat kontrak
 const contractAddress = "0xC09CbdD6a6e9381Fb73581b0ee5A536f0fEBb13c"; 
