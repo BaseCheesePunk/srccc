@@ -113,7 +113,7 @@ nav button {
 .social-media {
   display: flex;
   justify-content: center; /* Center the icons */
-  margin-top: 1px; /* Space above the icons */
+  margin-top: 10px; /* Space above the icons */
 }
 
 .social-media a {
@@ -121,6 +121,6 @@ nav button {
 }
 
 .social-media img {
-  width: 32px; /* Set icon width */
+  width: 2px; /* Set icon width */
   height: auto; /* Maintain aspect ratio */
 }
