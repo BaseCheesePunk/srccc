@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boobles NFT Minting</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" class="logo" />
+    <h1>BOOBLES</h1>
+    <nav>
+      <button>❌</button>
+      <button>🔥</button>
+      <button>📊</button>
+    </nav>
+    
+    <!-- Social Media Links -->
+    <div class="social-media">
+      <a href="https://x.com/Basedfrogspunk" target="_blank">
+        <img src="./images/Twitter.png" alt="Twitter" />
+      </a>
+      <a href="https://instagram.com/your_instagram_handle" target="_blank">
+        <img src="instagram.png" alt="Instagram" />
+      </a>
+      <a href="https://opensea.io/assets/your_collection" target="_blank">
+        <img src="opensea.png" alt="OpenSea" />
+      </a>
+      <a href="https://bscscan.com/address/your_contract_address" target="_blank">
+        <img src="basescan.png" alt="BaseScan" />
+      </a>
+    </div>
+  </header>
+
+  <section class="gallery">
+    <img src="1.png" alt="NFT 1" />
+    <img src="101.png" alt="NFT 2" />
+    <img src="201.png" alt="NFT 3" />
+    <img src="301.png" alt="NFT 4" />
+    <img src="401.png" alt="NFT 5" />
+    <img src="501.png" alt="NFT 6" />
+  </section>
+
+  <section class="description">
+    <p>
+      Boobles is a collection of 3333 hand-drawn NFTs, each featuring unique and playful characters.
+      The project celebrates vibrant creativity and imaginative designs. 
+      At its heart is a community of collectors united by a love for art and self-expression, fostering a positive and fun atmosphere.
+      As Boobles expands, it remains rooted in its art-driven culture, offering evolving experiences that nurture creativity and connection.
+    </p>
+  </section>
+
+  <section class="minting-controls">
+    <div class="counter">
+      <button id="decrease">-</button>
+      <span id="amount">1</span>
+      <button id="increase">+</button>
+    </div>
+    <p>Max mint amount: 5</p>
+
+    <div class="total">
+      <p>Total: <span id="total">0.001</span> ETH</p>
+    </div>
+
+    <button id="mintButton" class="mint">MINT</button>
+    <button class="wl-checker">WL CHECKER</button>
+    <button id="soldOutButton" class="sold-out" disabled>SOLD OUT</button>
+
+    <div class="progress">
+      <p><span id="currentMinted">0</span> / 10000</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
