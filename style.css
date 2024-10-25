@@ -19,12 +19,12 @@ body {
 .social-links {
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 1px 0;
 }
 
 .social-links a img {
-  width: 40px;
-  margin: 0 10px;
+  width: 50px;
+  margin: 0 1px;
   transition: transform 0.3s;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .mint-gif {
-  width: 300px;
+  width: 100px;
   margin: 20px auto;
 }
 
