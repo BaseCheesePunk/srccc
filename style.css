@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Logo */
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* NFT Grid */
+.nft-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nft-image {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Project Description */
+.project-description {
+  margin-bottom: 20px;
+}
+
+/* GIF Animation */
+.mint-gif {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Hidden Elements */
+.hidden {
+  display: none;
+}
+
+/* Button Styling */
+button {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Wallet Info Styling */
+#walletInfo p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Social Links */
+.social-links img {
+  width: 30px;
+  margin: 5px;
+}

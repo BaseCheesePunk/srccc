@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mint NFT Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img src="./images/logo.png" alt="Logo" class="logo">
+
+    <h1>Connect Wallet & Mint NFT</h1>
+
+    <!-- NFT Grid -->
+    <div class="nft-grid">
+      <img src="./images/1.png" alt="NFT 1" class="nft-image">
+      <img src="./images/101.png" alt="NFT 2" class="nft-image">
+      <img src="./images/201.png" alt="NFT 3" class="nft-image">
+      <img src="./images/301.png" alt="NFT 4" class="nft-image">
+      <img src="./images/401.png" alt="NFT 5" class="nft-image">
+      <img src="./images/501.png" alt="NFT 6" class="nft-image">
+    </div>
+
+    <!-- Project Description -->
+    <div class="project-description">
+      <p>
+        Selamat datang di proyek NFT kami! Koleksi eksklusif ini terdiri dari 
+        10.000 karya seni digital unik. Setiap NFT memberikan akses ke acara, 
+        komunitas, dan manfaat khusus bagi para pemiliknya. Segera mint NFT 
+        Anda dan bergabunglah dengan kami dalam perjalanan menuju dunia web3!
+      </p>
+    </div>
+
+    <!-- GIF Animation -->
+    <img src="./images/BasedFrogsPunk.gif" alt="Mint Animation" class="mint-gif">
+
+    <!-- Button Section -->
+    <div class="button-section">
+      <button id="connectButton">Connect Wallet</button>
+
+      <div id="walletInfo" class="hidden">
+        <p><strong>Connected Wallet:</strong> <span id="walletAddress"></span></p>
+        <button id="mintButton" class="hidden">Mint Token</button>
+        <button id="soldOutButton" class="hidden" disabled>Sold Out</button>
+      </div>
+    </div>
+
+    <div id="message" class="hidden"></div>
+
+    <!-- Social Links Section -->
+    <div class="social-links">
+      <a href="https://x.com/Basedfrogspunk" target="_blank">
+        <img src="./images/Twitter.png" alt="Twitter">
+      </a>
+      <a href="https://instagram.com/basedfrogspunk" target="_blank">
+        <img src="./images/Instagram.png" alt="Instagram">
+      </a>
+      <a href="https://discord.gg/DPamHawC4j" target="_blank">
+        <img src="./images/Discord.png" alt="Discord">
+      </a>
+      <a href="https://opensea.io/yourcollection" target="_blank">
+        <img src="./images/OpenSea.png" alt="OpenSea">
+      </a>
+      <a href="https://basescan.org/address/0xC09CbdD6a6e9381Fb73581b0ee5A536f0fEBb13c" target="_blank">
+        <img src="./images/BaseScan.png" alt="BaseScan">
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
