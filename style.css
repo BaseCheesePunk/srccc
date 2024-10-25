@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -50,8 +50,8 @@ body {
 }
 
 .mint-gif {
-  width: px;
-  margin: 200px auto;
+  width: 10px;
+  margin: 20px auto;
 }
 
 .button-section {
